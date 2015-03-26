@@ -1,0 +1,36 @@
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+$blue: #1ab1ac;
+$dark-gray: #2d2c2e;
+$medium-gray: #555356;
+$light-gray: #DDD;
+$base-font-color: $dark-gray;
+$base-accent-color: $dark-gray;
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: lighten($base-accent-color, 15);
+
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+$sans-serif: Helvetica;
+$base-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+
+// Font sizes
+$base-font-size: 22px;
+$title-size--small: 22px;
+$title-size:  31px;
+$title-size--huge: 62px;
+
+// Line heights
+$base-line-height: $base-font-size * 1.5; // 22 * 1.5 = 33px
+
+// Margin + Padding sizes
+$xs: $base-line-height / 3;
+$small:   $base-line-height / 2;
+$medium:  $base-line-height;
+$large:   $base-line-height * 2;
+$xl:      $base-line-height * 3;
+
+$header-height: $base-line-height * 2;

@@ -1,0 +1,54 @@
+html {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font-family;
+  font-weight: 700;
+  color: $dark-gray;
+  margin: 0;
+}
+
+h1 {
+  font-size: $title-size;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: $title-size--small;
+  line-height: $base-line-height - 12px;
+  margin-bottom: 12px;
+}
+
+body {
+  font-family: $base-font-family;
+  color: $medium-gray;
+  padding-top: $header-height;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: $base-line-height;
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $hover-link-color;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: $base-line-height;
+}
+
+img {
+  max-width: 75%;
+}

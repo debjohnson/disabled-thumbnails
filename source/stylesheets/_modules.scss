@@ -1,0 +1,12 @@
+.main-content {
+  @include outer-container;
+}
+
+.image-block {
+  @include span-columns(3);
+  @include omega(4n);
+
+  img {
+    margin-bottom: 20px;
+  }
+}
